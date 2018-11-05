@@ -17,6 +17,10 @@
           <%= f.text_field :full_name, placeholder:"full name", class:"input100"%>
           <span class="focus-input100" data-placeholder=""></span>
         </div>
+        <div class="wrap-input100 validate-input" data-validate = "Enter username">
+          <%= f.file_field :avatar , placeholder:"choose your avatar", class:"input100"%>
+          <span class="focus-input100" data-placeholder=""></span>
+        </div>
         <div class="wrap-input100 validate-input" data-validate="Enter password">
           <% if @minimum_password_length %>
             <em>(<%= @minimum_password_length %> characters minimum and 20 characters maximum)</em>

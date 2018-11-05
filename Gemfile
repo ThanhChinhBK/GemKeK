@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.1'
 gem 'sqlite3'
 gem 'ckeditor'
 gem 'chartjs-ror'
+gem 'carrierwave', '~> 1.0'
 gem "paperclip", "~> 6.0.0"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
